@@ -14,12 +14,62 @@
     <div id="map"></div>
     <script>
     	function initMap() {
+    		var foxhills = {lat: 33.9859, lng: -118.3934};
+    		var hollywood  = {lat: 34.1023, lng: -118.3394};
+    		var beverly = {lat: 34.0752, lng: -118.3775};
+    		var delamo = {lat: 33.8333, lng: -118.3489};
+    		var westsidep = {lat: 34.0401, lng: -118.475};
+
     		var mapDiv = document.getElementById('map');
-    		var map = new google.maps.Map(mapDiv, {
-    			center : {lat: 44.540, lng: -78.546},
-    			zoom: 8
+    		var Newmap = new google.maps.Map(mapDiv, {
+    			center : foxhills,
+    			zoom: 12
     		});
-    	}
+    
+
+  			var marker = new google.maps.Marker({
+    		position: foxhills,
+    		map: Newmap,
+    		title: 'SEPHORA FOXHILLS!'
+  });
+  			var marker2 = new google.maps.Marker({
+  			position: hollywood,
+  			map: Newmap,
+  			title: 'SEPHORA HOLLYWOOD!'
+  });
+  			var marker3 = new google.maps.Marker({
+  			position: beverly,
+  			map: Newmap,
+  			title: 'SEPHORA BEVERLYCENTER!'
+  });
+  			var marker4 = new google.maps.Marker({
+  			position: delamo,
+  			map: Newmap,
+  			title: 'NORDSTROM DEL AMO MALL!'
+  });
+  			var marker5 = new google.maps.Marker({
+  			position: westsidep,
+  			map: Newmap,
+  			title: 'NORDSTROM WESTSIDE PAVILION'
+  });
+
+  
+}
+// 	function initMap() {
+// var hollywood  = {lat: 34.1023, lng: -118.3394};
+
+// var map = new google.maps.Map(document.getElementById('map'), {
+//     zoom: 4,
+//     center: myLatLng
+//   });
+
+// var marker = new google.maps.Marker({
+//   	position: hollywood,
+//   	map: map,
+//   	title: 'Hello World!'
+//   });
+// }
+
   </script>
   <script async defer
        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx61mFyXi9C8QckGxstxd7O9RnjSoAIDM&callback=initMap">

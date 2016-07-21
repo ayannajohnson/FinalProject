@@ -1,0 +1,22 @@
+h1 {
+	color : black;
+	text-align: center;
+	font-family: Courier; 
+}
+
+p {
+	font-size: 20px;
+	font-family: Courier;
+}
+
+.title {
+	font-family: Courier;
+	font-size: 19px;
+	color : black;
+
+}
+
+.subtitle {
+	font-family: Courier;
+	font-size: 18px;
+	color : black;

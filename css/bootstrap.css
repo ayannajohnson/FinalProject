@@ -4496,22 +4496,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-.navbar-default .navbar-brand {
-  color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
+  background-color: #41e6ad;
+  border-color: #41e6ad;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  color: #9f5738;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color:#9f5738;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4527,15 +4519,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #ccc;
+  color: #9f5738;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #9f5738;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #9f5738;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
@@ -6851,4 +6843,9 @@ button.close {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.custom {
+  font-size: x-large;
+font-family: "Comic Sans MS", cursive, sans-serif
 }

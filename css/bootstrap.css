@@ -6794,7 +6794,7 @@ button.close {
 /* Caption text */
 .textN {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -6848,4 +6848,11 @@ button.close {
 .custom {
   font-size: x-large;
 font-family: "Comic Sans MS", cursive, sans-serif
+}
+#p1 {
+  width: 100%;
+}
+#right{
+  position: absolute;
+  right: 0px;
 }

@@ -1,22 +1,27 @@
 h1 {
 	color : black;
 	text-align: center;
-	font-family: Courier; 
+	font-family: Verdana; 
 }
 
 p {
 	font-size: 20px;
-	font-family: Courier;
+	font-family: Verdana;
 }
 
 .title {
-	font-family: Courier;
+	font-family: Verdana;
 	font-size: 19px;
 	color : black;
 
 }
 
 .subtitle {
-	font-family: Courier;
+	font-family: Verdana;
 	font-size: 18px;
 	color : black;
+}
+
+body {
+	background-color: #ff0097;
+}

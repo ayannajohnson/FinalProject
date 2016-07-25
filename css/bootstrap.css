@@ -6856,3 +6856,24 @@ font-family: "Comic Sans MS", cursive, sans-serif
   position: absolute;
   right: 0px;
 }
+#NewsFont{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: -webkit-xxx-large;
+  color:#ff0097;
+}
+body{
+  background-color: #A200FF
+}
+#missionstatment{
+  font-family: 'Mirza', cursive;
+  color: #F09609;
+  font-size: xx-large;
+}
+#missionstatmenttitle{
+  left: 50px;
+  position: relative;
+  font-family: 'Mirza', cursive;
+  color: #00ABA9;
+   font-size: -webkit-xxx-large;
+}
+

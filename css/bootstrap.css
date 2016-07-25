@@ -4496,14 +4496,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #41e6ad;
-  border-color: #41e6ad;
+  /*background-color: #41e6ad;
+  border-color: #41e6ad;*/
+  background-color: #f09609;
+  border-color:#f09609;
 }
 .navbar-default .navbar-text {
   color: #9f5738;
 }
 .navbar-default .navbar-nav > li > a {
-  color:#9f5738;
+  /*color:#9f5738;*/
+  color: black;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -6844,6 +6847,7 @@ button.close {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 
 .custom {
   font-size: x-large;

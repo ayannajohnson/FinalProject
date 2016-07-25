@@ -1,27 +1,52 @@
 h1 {
 	color : black;
 	text-align: center;
-	font-family: Verdana; 
+	font-family: 'Fjalla One',sans-serif; 
+	font-size: 35px;
 }
 
 p {
-	font-size: 20px;
-	font-family: Verdana;
+	font-size: 30px;
+	color: black;
+	font-family: 'Mirza',cursive;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 .title {
 	font-family: Verdana;
-	font-size: 19px;
+	font-size: 29px;
 	color : black;
 
 }
 
 .subtitle {
-	font-family: Verdana;
-	font-size: 18px;
-	color : black;
+	font-family: 'Mirza',cursive;
+	font-size: 32px;
+	color :turquoise;
+	padding-left: 50px;
 }
 
+
 body {
-	background-color: #ff0097;
+	background-color: #ff0097 !important;
+}
+#newstitle{
+
+}
+#spotlighttitle{
+	x33
+}
+
+
+#border{
+	padding-left: 30px;
+}
+
+#outline{
+	padding-left: 10px;
+}
+
+#outline2{
+	padding-right: 10px;
 }

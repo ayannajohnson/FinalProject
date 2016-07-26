@@ -1,15 +1,41 @@
 	.MAP{
-	color: black;
 	font-size: 18px;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+	font-family:'Mirza',cursive;
+    color:black;
 	}	
 
 	body{
 		background-color: #ff0097 !important;
-		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
-
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		/*padding-right: 20px;*/
 	}
+
+	
+
 
 	.head{
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+	font-family: 'Fjalla One', sans-serif;
+	color:#00aedb;
 	}
+
+	.stores{
+	font-family: 'Mirza',cursive;
+	color:black;	
+	font-size: 18px
+	}
+
+#sephora{
+	padding-left: 20px;
+}
+
+#ulta{
+	/*padding-left: :20px;
+}
+
+#backover{
+	padding-right: 10px;*/
+}
+
+#link{
+	padding-left:20px;
+}

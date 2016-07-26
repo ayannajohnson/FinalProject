@@ -6762,7 +6762,7 @@ button.close {
 /**/
 
 .slideshow-containerN {
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
   margin: auto;
 }
@@ -6851,7 +6851,8 @@ button.close {
 
 .custom {
   font-size: x-large;
-font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: "verdana", cursive, sans-serif;
+  padding: 20px;
 }
 #p1 {
   width: 100%;

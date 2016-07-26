@@ -23,8 +23,9 @@ p {
 .subtitle {
 	font-family: 'Mirza',cursive;
 	font-size: 32px;
-	color :turquoise;
+	/*color :turquoise;*/
 	padding-left: 50px;
+	color: #00aedb;
 }
 
 

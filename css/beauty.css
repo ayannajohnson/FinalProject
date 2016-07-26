@@ -1,9 +1,15 @@
 	.MAP{
 	color: black;
 	font-size: 18px;
-	font:verdana;
-	}
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+	}	
 
 	body{
 		background-color: #ff0097 !important;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
+
+	}
+
+	.head{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 	}

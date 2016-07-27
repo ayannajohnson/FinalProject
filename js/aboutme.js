@@ -6,8 +6,8 @@ function  mouseover1 () {
 
 function mouseout1 () {
   var image1 = document.getElementById("syniah");
-  image1.style.width = "200px";
-  image1.style.height = "150px";
+  image1.style.width = "250px";
+  image1.style.height = "300px";
 }
 
 function  mouseover2 () {
@@ -42,6 +42,6 @@ function  mouseover4 () {
 
 function mouseout4 () {
   var image4 = document.getElementById("rayvon");
-  image4.style.width = "200px";
-  image4.style.height = "150px";
+  image4.style.width = "250px";
+  image4.style.height = "300px";
 }
